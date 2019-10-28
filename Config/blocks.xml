@@ -1,0 +1,510 @@
+<configs>
+	
+	<append xpath="/blocks/block[@name='bedroll']">
+	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingBen']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingLorien']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDerek']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingNoah']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDuke']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingKen']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedWorkbench']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workbench"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedForge']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="forge"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='steelMaster']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="stainlessSteelMaster"/>
+			<property name="Item" value="Titanium Polish"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="2"/>
+			</property>
+			</append>
+			
+	<append xpath="/blocks/block[@name='stainlessSteelMaster']">
+		<property class="RepairItems">
+			<property name="Titanium Polish" value="2"/>
+			</property>
+			</append>
+	
+	<append xpath="/blocks/block[@name='steelArch']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArch"/> </property></append>
+	<append xpath="/blocks/block[@name='steelArrowSlitHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArrowSlitHalf"/> </property></append>
+	<append xpath="/blocks/block[@name='steelBlock']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelBlock"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRFull']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRFull"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRInside']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRInside"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRamp']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRamp"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRampFiller']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRampFiller"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRound']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRound"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRoundTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRoundTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCTRPlate']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCTRPlate"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCTRpole']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCTRpole"/> </property></append>
+	<append xpath="/blocks/block[@name='steelEighth']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelEighth"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableInvertedHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedHalf"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableInvertedQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedQuarter"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableInvertedSteep']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedSteep"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableQuarter"/> </property></append>
+	<append xpath="/blocks/block[@name='steelHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelHalf"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPillar100']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPillar100Cap']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100Cap"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPillar50']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar50"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPlate']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPlate"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPlateOffset']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPlateOffset"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPole']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPole"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPyramid']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPyramid"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarter"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterCNR']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterCNR"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterCNR3Way']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterCNR3Way"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterSCtr']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterSCtr"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterTeeSCtr']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterTeeSCtr"/> </property></append>
+	<append xpath="/blocks/block[@name='steelRamp']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelRamp"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairs25']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairs25CornerCNR']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25CornerCNR"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairsFilledRailingLeft']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairsFilledRailingLeft"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairsFilledRailingRight']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairsFilledRailingRight"/> </property></append>
+	<append xpath="/blocks/block[@name='steelSupport']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelSupport"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedge']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedge"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideBottom"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideSteepBase']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideSteepBase"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideSteepTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideSteepTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRSteepBase']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRSteepBase"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRSteepTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRSteepTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeIncline']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeIncline"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeStairs"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTip']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTip"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullBottom"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTipStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipStairs"/> </property></append>
+	
+<append xpath="/blocks">
+
+<block name="HD Forge">
+	<property name="Class" value="Forge"/>
+	<property name="CustomIcon" value="HD Forge" />
+	<property name="Material" value="Mstone_scrap"/>
+	<property name="MaxDamage" value="2000"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HD Forge.unity3d?HD Forge.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="ParticleName" value="forge"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
+	<property name="DescriptionKey" value="HD Forge"/>
+	<property name="ParticleOffset" value="0.5,0,0.5"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="HeatMapStrength" value="0.5"/>
+	<property name="HeatMapTime" value="300"/>
+	<property name="HeatMapFrequency" value="25"/>
+	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+	<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
+
+	<property class="Workstation">
+		<property name="CraftingAreaRecipes" value="forge"/>
+		<property name="Modules" value="tools,output,fuel,material_input"/>
+		<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
+	</property>
+	<property name="WorkstationIcon" value="ui_game_symbol_forge" />
+	<property name="OpenSound" value="forge_open" />
+	<property name="CloseSound" value="forge_close" />
+	<property name="CraftSound" value="forge_smelt_click" />
+	<property name="CraftCompleteSound" value="forge_item_complete" />
+	<property name="WorkstationJournalTip" value="forgeTip" />
+
+	<property class="RepairItems">
+		<property name="resourceRockSmall" value="50"/>
+		<property name="resourceClayLump" value="60"/>
+		<property name="resourceLeather" value="20"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="30" tag="allHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceRockSmall" count="20" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceClayLump" count="20" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="5" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="Group" value="Building"/>
+	<property name="DescriptionKey" value="forgeDesc"/>
+	<property name="EconomicValue" value="214"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
+</block>
+
+		<block name="Ammo Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Ammo Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA02Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Ammo Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Ammo Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB02Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+		<block name="Building Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Building Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA05Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Building Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Building Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB05Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+		<block name="Forge Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Forge Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA07Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Forge Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Forge Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB07Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+		<block name="Fuel Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Fuel Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA08Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Fuel Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Fuel Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB08Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+		<block name="Medical Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Medical Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA09Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Medical Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Medical Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB09Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+		<block name="Duke Coin Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Duke Coin Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA10Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Duke Coin Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Duke Coin Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB10Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+		<block name="Grocery Supplies">
+			<property name="LPHardnessScale" value="8"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Path" value="solid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="Grocery Supplies"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoA12Prefab"/>
+			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
+			<property name="Class" value="SecureLoot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="Msteel"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<property name="DowngradeBlock" value="Grocery Supplies Unlocked"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+
+		<block name="Grocery Supplies Unlocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntStorageHealth"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity" />
+		    <property name="Model" value="#@modfolder:Resources/RssAlfalandiaBoxes.unity3d?StorageAmmoB12Prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			<drop event="Destroy" count="0"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		
+<block name="HD Generator">
+	<property name="CustomIcon" value="HD Genny"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="BatteryBank"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="powerSourceDesc"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,batterybankSchematic"/>
+	<property name="MaxPower" value="65535"/>
+	<property name="InputPerTick" value="100"/>
+	<property name="ChargePerInput" value="100"/>
+	<property name="OutputPerStack" value="10922"/>
+	<property name="OutputPerCharge" value="10922"/>
+	<property name="SlotItem" value="HD Cell"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="8"/>
+		<property name="resourceElectricParts" value="6"/>
+		<property name="resourceElectricParts" value="2"/>
+		<property name="resourceScrapPolymers" value="4"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+</append>
+</configs>

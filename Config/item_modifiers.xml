@@ -1,0 +1,49 @@
+<configs>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Spas 12">
+			<property name="Sound_start" value="silence1"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0005,-0.045,0.10"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="Punisher">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="BarrelOffset" value="0,0.05,0.05"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="Punisher">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0001,-0.020,0.01"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<item_property_overrides name="Punisher">
+			<property name="CrosshairOnAim" value="true"/>
+		</item_property_overrides>
+	</append>
+	
+</configs>

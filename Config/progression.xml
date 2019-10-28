@@ -1,0 +1,68 @@
+<configs>
+	
+		<set xpath="/progression/level/@skill_points_per_level">5</set>
+		<set xpath="/progression/level/@exp_to_level">8000</set>
+		
+<append xpath="/progression/perks">
+	<perk name="perkAdvanced HD Spas 12" parent="skillCraftsmanship" name_key="HD Spas 12" desc_key="Unlock The HD Spas 12 Shotgun" icon="ui_game_symbol_gunslinger" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="HD Spas 12"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: The HD Spas 12 Shotgun"/>
+				</effect_group>
+		</perk>
+		
+	<perk name="perkAdvanced HD M4A1 Carbine" parent="skillCraftsmanship" name_key="HD M4A1 Carbine" desc_key="Unlock The HD M4A1 Carbine!" icon="ui_game_symbol_rifle" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="HD M4A1 Carbine"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: The ultimate HD M4A1 Carbine"/>
+				</effect_group>
+		</perk>
+		
+	<perk name="perkAdvanced HD Wrench" parent="skillCraftsmanship" name_key="HD Wrench" desc_key="Unlock The ultimate HD Wrench" icon="ui_game_symbol_shopping_cart" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="HD Wrench"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: The ultimate HD Wrench"/>
+				</effect_group>
+		</perk>
+		
+	<perk name="perkAdvanced Punisher" parent="skillCraftsmanship" name_key="Punisher" desc_key="Unlock The Original Zombie Killer!" icon="ui_game_symbol_gunslinger" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="Punisher"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: The ultimate Zombie Killing Pistol"/>
+				</effect_group>
+		</perk>
+		
+	</append>
+</configs>
