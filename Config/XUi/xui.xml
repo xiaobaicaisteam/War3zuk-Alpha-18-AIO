@@ -14,14 +14,11 @@
 		</window_group>
 		
 </append>
-
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowForgeInput']/@name">WZwindowForgeInput</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='crafting']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
-	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
-	
 </configs>
-<!--  BIG Thanks too ExtremeLurker for Sorting the XUI List without which this wouldnt work as Intended -->

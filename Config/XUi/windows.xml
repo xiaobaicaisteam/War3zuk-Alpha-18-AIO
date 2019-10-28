@@ -12,7 +12,7 @@
 	
 	<append xpath="/windows">
 
-		<window name="WARwindowForgeInput" width="228" height="279" panel="Right"
+		<window name="WZwindowForgeInput" width="228" height="279" panel="Right"
 			controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
 
 			<panel style="header.panel">
