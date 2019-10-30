@@ -158,15 +158,15 @@
 	</SoundDataNode>
 
 	<SoundDataNode name="ting"> 
-		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
-		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-			<Noise ID="1" range="5" volume="5" time="3" heat_map_strength="0.005" heat_map_time="300"/>
-			<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?ting"/>
-			<LocalCrouchVolumeScale value="0.5"/> 
-			<CrouchNoiseScale value="0.5"/>
-			<NoiseScale value="1"/> 
-			<MaxVoices value="10"/> 
-			<MaxRepeatRate value="0.001"/>
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="1" range="5" volume="5" time="3" heat_map_strength="0.005" heat_map_time="300"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?ting"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
 	</SoundDataNode>
 	
 <SoundDataNode name="auger_empty">

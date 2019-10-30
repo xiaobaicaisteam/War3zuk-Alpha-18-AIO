@@ -18,58 +18,58 @@
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 
-<recipe name="Deagle Round" count="50">
+<recipe name="Deagle Round" count="50" craft_time = "0.5">
 	<ingredient name="Ammo Supply DE50" count="1"/>
 </recipe>
 
-      	<recipe name="ST Military Vest" count="1" craft_time = "60" >
-		<ingredient name="armorMilitarySetParts" count="5"/>
-		<ingredient name="resourceMilitaryFiber" count="5"/>
-		<ingredient name="resourceScrapPolymers" count="20"/>
-		<ingredient name="resourceDuctTape" count="10"/>
-		<ingredient name="resourceSewingKit" count="5"/>
-		</recipe>
+<recipe name="ST Military Vest" count="1" craft_time = "60" >
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+</recipe>
 	
-		<recipe name="ST Military Gloves" count="1" craft_time = "60" >
-		<ingredient name="armorMilitarySetParts" count="5"/>
-		<ingredient name="resourceMilitaryFiber" count="5"/>
-		<ingredient name="resourceScrapPolymers" count="20"/>
-		<ingredient name="resourceDuctTape" count="10"/>
-		<ingredient name="resourceSewingKit" count="5"/>
-		</recipe>
+<recipe name="ST Military Gloves" count="1" craft_time = "60" >
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+</recipe>
 		
-		<recipe name="ST Military Legs" count="1" craft_time = "60" >
-		<ingredient name="armorMilitarySetParts" count="5"/>
-		<ingredient name="resourceMilitaryFiber" count="5"/>
-		<ingredient name="resourceScrapPolymers" count="20"/>
-		<ingredient name="resourceDuctTape" count="10"/>
-		<ingredient name="resourceSewingKit" count="5"/>
-		</recipe>
+<recipe name="ST Military Legs" count="1" craft_time = "60" >
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+</recipe>
 	
-		<recipe name="ST Military Boots" count="1" craft_time = "60" >
-		<ingredient name="armorMilitarySetParts" count="5"/>
-		<ingredient name="resourceMilitaryFiber" count="5"/>
-		<ingredient name="resourceScrapPolymers" count="20"/>
-		<ingredient name="resourceDuctTape" count="10"/>
-		<ingredient name="resourceSewingKit" count="5"/>
-		</recipe>
+<recipe name="ST Military Boots" count="1" craft_time = "60" >
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+</recipe>
 	
-		<recipe name="ST Military Helmet" count="1" craft_time = "60" >
-		<ingredient name="armorMilitarySetParts" count="5"/>
-		<ingredient name="resourceMilitaryFiber" count="5"/>
-		<ingredient name="resourceScrapPolymers" count="20"/>
-		<ingredient name="resourceDuctTape" count="10"/>
-		<ingredient name="resourceSewingKit" count="5"/>
-		</recipe>
+<recipe name="ST Military Helmet" count="1" craft_time = "60" >
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+</recipe>
 		
-	<recipe name="Starter Builder"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Starter Builder"> <ingredient name="Starter Class" count="1"/></recipe>
 	<recipe name="Starter Chef"> <ingredient name="Starter Class" count="1"/></recipe>
 	<recipe name="Starter Mechanic"> <ingredient name="Starter Class" count="1"/></recipe>
 	<recipe name="Starter Medic"> <ingredient name="Starter Class" count="1"/></recipe>
 	<recipe name="Starter Military"> <ingredient name="Starter Class" count="1"/></recipe>
-	<recipe name="Starter Security"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Starter Security"> <ingredient name="Starter Class" count="1"/></recipe>
 	
-<recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" tags="learnable">
+<recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" craft_time = "120" tags="learnable">
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceDuctTape" count="30"/>
@@ -96,7 +96,7 @@
 	<ingredient name="unit_lead" count="2"/>
 </recipe>
 
-<recipe name="Titanium Polish" count="5" craft_area="chemistryStation">
+<recipe name="Titanium Polish" count="5" craft_time = "1" craft_area="chemistryStation">
 	<ingredient name="Forged Brass" count="1"/>
 	<ingredient name="Forged Titanium" count="1"/>
 	<ingredient name="resourceOil" count="1"/>
@@ -119,12 +119,11 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-		<recipe name="HD Lock Pick" count="1" craft_time = "30" >
-			
-			<ingredient name="resourceForgedIron" count="10"/>
-			<ingredient name="resourceOil" count="2"/>
-			<ingredient name="resourceLeather" count="2"/>
-		</recipe>
+<recipe name="HD Lock Pick" count="1" craft_time = "10" >
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+</recipe>
 		
 <recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">
 	<ingredient name="resourceForgedIron" count="20"/>
@@ -140,121 +139,121 @@
 	<ingredient name="resourceWood" count="50"/>
 </recipe>
 
-<recipe name="Find The Trader" count="1" craft_time = "1" craft_exp_gain="0" >
+<recipe name="Find The Trader" count="1" craft_time = "1">
 	<ingredient name="resourcePaper" count="10"/>
 </recipe>
 
-      	<recipe name="ammo9mmBulletBall" count="50">
-			<ingredient name="Ammo Supply 9mm" count="1"/>
-		</recipe>
+<recipe name="ammo9mmBulletBall" count="50">
+	<ingredient name="Ammo Supply 9mm" count="1"/>
+</recipe>
 	
-		<recipe name="ammo9mmBulletHP" count="50">
-			<ingredient name="Ammo Supply 9mm" count="1"/>
-		</recipe>
+<recipe name="ammo9mmBulletHP" count="50">
+	<ingredient name="Ammo Supply 9mm" count="1"/>
+</recipe>
 		
-		<recipe name="ammo9mmBulletAP" count="50">
-			<ingredient name="Ammo Supply 9mm" count="1"/>
-		</recipe>
+<recipe name="ammo9mmBulletAP" count="50">
+	<ingredient name="Ammo Supply 9mm" count="1"/>
+</recipe>
 	
-		<recipe name="ammo44MagnumBulletBall" count="50">
-			<ingredient name="Ammo Supply 44Mag" count="1"/>
-		</recipe>
+<recipe name="ammo44MagnumBulletBall" count="50">
+	<ingredient name="Ammo Supply 44Mag" count="1"/>
+</recipe>
 	
-		<recipe name="ammo44MagnumBulletHP" count="50">
-			<ingredient name="Ammo Supply 44Mag" count="1"/>
-		</recipe>
+<recipe name="ammo44MagnumBulletHP" count="50">
+	<ingredient name="Ammo Supply 44Mag" count="1"/>
+</recipe>
 		
-		<recipe name="ammo44MagnumBulletAP" count="50">
-			<ingredient name="Ammo Supply 44Mag" count="1"/>
-		</recipe>
+<recipe name="ammo44MagnumBulletAP" count="50">
+	<ingredient name="Ammo Supply 44Mag" count="1"/>
+</recipe>
 	
-		<recipe name="ammo762mmBulletBall" count="50">
-			<ingredient name="Ammo Supply 762mm" count="1"/>
-		</recipe>
+<recipe name="ammo762mmBulletBall" count="50">
+	<ingredient name="Ammo Supply 762mm" count="1"/>
+</recipe>
 	
-		<recipe name="ammo762mmBulletHP" count="50">
-			<ingredient name="Ammo Supply 762mm" count="1"/>
-		</recipe>
+<recipe name="ammo762mmBulletHP" count="50">
+	<ingredient name="Ammo Supply 762mm" count="1"/>
+</recipe>
 		
-		<recipe name="ammo762mmBulletAP" count="50">
-			<ingredient name="Ammo Supply 762mm" count="1"/>
-		</recipe>
+<recipe name="ammo762mmBulletAP" count="50">
+	<ingredient name="Ammo Supply 762mm" count="1"/>
+</recipe>
 		
-		<recipe name="ammoShotgunShell" count="50">
-			<ingredient name="Ammo Supply Shotgun" count="1"/>
-		</recipe>
+<recipe name="ammoShotgunShell" count="50">
+	<ingredient name="Ammo Supply Shotgun" count="1"/>
+</recipe>
 
-		<recipe name="ammoShotgunSlug" count="50">
-			<ingredient name="Ammo Supply ShotgunSlug" count="1"/>
-		</recipe>
+<recipe name="ammoShotgunSlug" count="50">
+	<ingredient name="Ammo Supply ShotgunSlug" count="1"/>
+</recipe>
 		
-		<recipe name="ammoShotgunBreachingSlug" count="50">
-			<ingredient name="Ammo Supply Breach Slug" count="1"/>
-		</recipe>
+<recipe name="ammoShotgunBreachingSlug" count="50">
+	<ingredient name="Ammo Supply Breach Slug" count="1"/>
+</recipe>
 		
-		<recipe name="ammoBlunderbuss" count="50">
-			<ingredient name="Ammo Supply Shredder" count="1"/>
-		</recipe>
+<recipe name="ammoBlunderbuss" count="50">
+	<ingredient name="Ammo Supply Shredder" count="1"/>
+</recipe>
 		
-                <recipe name="Fat Soaked Log Bundle" count="50">
-				<ingredient name="drinkJarGrainAlcohol" count="1" />
-				<ingredient name="resourceWood" count="50"/>
-				<ingredient name="resourceAnimalFat" count="5" />
-               </recipe>
+<recipe name="Fat Soaked Log Bundle" craft_time = "5" count="1000">
+	<ingredient name="drinkJarGrainAlcohol" count="2" />
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="resourceAnimalFat" count="2" />
+</recipe>
 			   
-		<recipe name="Ammo Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Ammo Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-		<recipe name="Building Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Building Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-		<recipe name="Forge Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Forge Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-		<recipe name="Fuel Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Fuel Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-		<recipe name="Medical Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Medical Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-		<recipe name="Duke Coin Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Duke Coin Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-		<recipe name="Grocery Supplies" craft_time="2" count="1">
-			<ingredient name="resourceNail" count="10"/>
-			<ingredient name="resourceWood" count="10"/>
-			<ingredient name="resourceGlue" count="1"/>
-		</recipe>
+<recipe name="Grocery Supplies" craft_time="2" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="1"/>
+</recipe>
 		
-	<recipe name="Penthrox Injection" count="1">
-		<ingredient name="Poison Vile" count="1"/>
-		<ingredient name="foodRottingFlesh" count="1"/>
-	</recipe>
+<recipe name="Penthrox Injection" craft_time = "60" count="1">
+	<ingredient name="Poison Vile" count="1"/>
+	<ingredient name="foodRottingFlesh" count="1"/>
+</recipe>
 
-	<recipe name="Poison Vile" count="1">
-		<ingredient name="foodRottingFlesh" count="10"/>
-		<ingredient name="resourceAnimalFat" count="5"/>
-		<ingredient name="resourceAcid" count="5"/>
-		<ingredient name="resourceBone" count="5"/>
-	</recipe>
+<recipe name="Poison Vile" craft_time = "60" count="1">
+	<ingredient name="foodRottingFlesh" count="10"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="resourceAcid" count="5"/>
+	<ingredient name="resourceBone" count="5"/>
+</recipe>
 	
 <recipe name="War3zuk Quest 01" count="1" craft_time = "1" craft_exp_gain="0" >
 	<ingredient name="resourcePaper" count="100"/>
@@ -280,26 +279,26 @@
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-		<recipe name="Golden Ticket" count="1">
-			<ingredient name="casinoCoin" count="10000"/>
-		</recipe>
+<recipe name="Golden Ticket" craft_time = "5" count="1">
+	<ingredient name="casinoCoin" count="10000"/>
+</recipe>
 		
-		<recipe name="casinoCoin" count="10000">
-			<ingredient name="Golden Ticket" count="1"/>
-		</recipe>
+<recipe name="casinoCoin" craft_time = "1" count="10000">
+	<ingredient name="Golden Ticket" count="1"/>
+</recipe>
 		
-	<recipe name="resourceAcid" count="1" tags="perkMiner69r">
-		<ingredient name="carBattery" count="2"/>
-		<ingredient name="drinkJarEmpty" count="1"/>
-	</recipe>
+<recipe name="resourceAcid" count="1" craft_time = "5" tags="perkMiner69r">
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
+</recipe>
 	
-	<recipe name="Adv Junk Turret" count="1" tags="perkMiner69r">
-		<ingredient name="gunJunkTurret" count="1"/>
-		<ingredient name="gunJunkTurretParts" count="10"/>
-		<ingredient name="resourceForgedIron" count="50"/>
-		<ingredient name="resourceScrapPolymers" count="15"/>
-		<ingredient name="resourceSpring" count="10"/>
-	</recipe>
+<recipe name="Adv Junk Turret" count="1" craft_time = "30" tags="perkMiner69r">
+	<ingredient name="gunJunkTurret" count="1"/>
+	<ingredient name="gunJunkTurretParts" count="10"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceScrapPolymers" count="15"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
 
 </append>
 </configs>
