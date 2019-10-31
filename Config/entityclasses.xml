@@ -1,8 +1,8 @@
 <configs>
 	
-<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">keystoneBlock,Starter Class</set>
+<!--  <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">keystoneBlock,Starter Class</set>
 <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">keystoneBlock,Starter Class</set>
-<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">keystoneBlock,Starter Class</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">keystoneBlock,Starter Class</set> -->
 <set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.20</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">3600</set>
 <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CrouchSpeed']/@value">1.1</set>
@@ -67,6 +67,10 @@
 		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 	</effect_group>
 </entity_class>
-
 </append>
+
+<append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
+    <passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
+</append>
+  
 </configs>

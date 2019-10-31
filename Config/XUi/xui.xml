@@ -23,6 +23,10 @@
 		
 </append>
 
+<append xpath="/xui/ruleset/window_group[@name='crafting']" >
+	<window name="windowCombine" />
+</append>
+
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>

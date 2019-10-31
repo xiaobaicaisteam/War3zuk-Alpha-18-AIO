@@ -85,6 +85,15 @@
 		</property>
 	</append>
 	
+	<append xpath="/blocks/block[@name='cntCementMixerBustedRandomLootHelper']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cementMixer"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
 	<append xpath="/blocks/block[@name='steelMaster']">
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="stainlessSteelMaster"/>

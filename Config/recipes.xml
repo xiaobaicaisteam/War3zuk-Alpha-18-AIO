@@ -28,7 +28,7 @@
 	<ingredient name="Ammo Supply DE50" count="1"/>
 </recipe>
 
-<recipe name="ST Military Vest" count="1" craft_time = "60" >
+<recipe name="ST Military Vest" count="1" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -36,7 +36,7 @@
 	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
 	
-<recipe name="ST Military Gloves" count="1" craft_time = "60" >
+<recipe name="ST Military Gloves" count="1" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -44,7 +44,7 @@
 	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
 		
-<recipe name="ST Military Legs" count="1" craft_time = "60" >
+<recipe name="ST Military Legs" count="1" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -52,7 +52,7 @@
 	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
 	
-<recipe name="ST Military Boots" count="1" craft_time = "60" >
+<recipe name="ST Military Boots" count="1" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -60,7 +60,7 @@
 	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
 	
-<recipe name="ST Military Helmet" count="1" craft_time = "60" >
+<recipe name="ST Military Helmet" count="1" craft_time = "60" tags="learnable,perkLightArmor">
 	<ingredient name="armorMilitarySetParts" count="5"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -75,7 +75,7 @@
 	<recipe name="Starter Military"> <ingredient name="Starter Class" count="1"/></recipe>
 <recipe name="Starter Security"> <ingredient name="Starter Class" count="1"/></recipe>
 	
-<recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" craft_time = "120" tags="learnable">
+<recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceDuctTape" count="30"/>
@@ -138,7 +138,7 @@
 	<ingredient name="resourceWood" count="10"/>
 </recipe>
 
-<recipe name="HD Xcalibur" count="1" craft_time = "30" >
+<recipe name="HD Xcalibur" count="1" craft_time = "30" tags="perkMiner69r">
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="5"/>
