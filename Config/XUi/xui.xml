@@ -6,7 +6,7 @@
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
-	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+
 	
 <append xpath="/xui/ruleset[@name='default']" >
 		
@@ -24,6 +24,8 @@
 </append>
 
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
-	
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HD Forge']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+
 </configs>
 <!--  BIG Thanks too ExtremeLurker for Sorting the XUI List without which this wouldnt work as Intended -->
