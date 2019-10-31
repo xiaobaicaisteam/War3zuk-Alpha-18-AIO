@@ -12,6 +12,12 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
+<recipe name="HD First Aid Kit" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
+	<ingredient name="medicalBloodBag" count="1"/>
+	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+	<ingredient name="medicalFirstAidKit" count="1"/>
+</recipe>
+
 <recipe name="Deagle Round" count="1" craft_area="workbench">
 	<ingredient name="resourceBulletTip" count="1"/>
 	<ingredient name="resourceGunPowder" count="1"/>

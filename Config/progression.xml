@@ -1,5 +1,7 @@
 <configs>
 	
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='1,5']/@tags">,HD First Aid Kit</append>
+	
 		<set xpath="/progression/level/@skill_points_per_level">5</set>
 		<set xpath="/progression/level/@exp_to_level">8000</set>
 		
