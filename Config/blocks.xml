@@ -106,21 +106,6 @@
 		</property>
 	</append>
 	
-	<append xpath="/blocks/block[@name='steelMaster']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="stainlessSteelMaster"/>
-			<property name="Item" value="Titanium Polish"/>
-			<property name="ItemCount" value="10"/>
-			<property name="UpgradeHitCount" value="2"/>
-			</property>
-			</append>
-			
-	<append xpath="/blocks/block[@name='stainlessSteelMaster']">
-		<property class="RepairItems">
-			<property name="Titanium Polish" value="2"/>
-			</property>
-			</append>
-	
 	<append xpath="/blocks/block[@name='steelArch']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArch"/> </property></append>
 	<append xpath="/blocks/block[@name='steelArrowSlitHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArrowSlitHalf"/> </property></append>
 	<append xpath="/blocks/block[@name='steelBlock']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelBlock"/> </property></append>
@@ -169,6 +154,21 @@
 	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullBottom"/> </property></append>
 	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullTop"/> </property></append>
 	<append xpath="/blocks/block[@name='steelWedgeTipStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipStairs"/> </property></append>
+	
+	<append xpath="/blocks/block[@name='steelMaster']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="stainlessSteelMaster"/>
+			<property name="Item" value="Titanium Polish"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+			
+	<append xpath="/blocks/block[@name='stainlessSteelMaster']">
+		<property class="RepairItems">
+			<property name="Titanium Polish" value="5"/>
+		</property>
+	</append>
 	
 <append xpath="/blocks">
 

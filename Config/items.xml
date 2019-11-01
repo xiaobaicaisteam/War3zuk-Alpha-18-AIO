@@ -184,6 +184,7 @@
 	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">100000</set>
 	
 	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
+	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
 	
 	<append xpath="/items">
 		<item name="Golden Ticket">

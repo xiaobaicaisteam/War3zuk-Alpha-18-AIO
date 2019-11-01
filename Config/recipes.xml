@@ -90,22 +90,21 @@
 	<ingredient name="resourceMetalPipe" count="10"/>
 </recipe>
 
-<recipe name="Forged Brass" count="2" craft_area="forge" craft_time="1" material_based="true">
+<recipe name="Forged Brass" count="4" craft_area="forge" craft_time="1" material_based="true">
 	<ingredient name="unit_brass" count="2"/>
 	<ingredient name="unit_clay" count="2"/>
 </recipe>
 
-<recipe name="Forged Titanium" count="2" material_based="true" craft_area="forge" craft_time="1" craft_tool="toolForgeCrucible">
+<recipe name="Forged Titanium" count="4" material_based="true" craft_area="forge" craft_time="1" craft_tool="toolForgeCrucible">
 	<ingredient name="unit_iron" count="2"/>
 	<ingredient name="unit_brass" count="2"/>
 	<ingredient name="unit_clay" count="2"/>
 	<ingredient name="unit_lead" count="2"/>
 </recipe>
 
-<recipe name="Titanium Polish" count="5" craft_time = "1" craft_area="chemistryStation">
+<recipe name="Titanium Polish" count="5" craft_area="chemistryStation">
 	<ingredient name="Forged Brass" count="1"/>
 	<ingredient name="Forged Titanium" count="1"/>
-	<ingredient name="resourceOil" count="1"/>
 	<ingredient name="resourceCrushedSand" count="1"/>
 </recipe>
 

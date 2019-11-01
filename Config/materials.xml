@@ -1,6 +1,6 @@
 <configs>
 	
-<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">20000</set>
+<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">25000</set>
 	
 <append xpath="/materials">
 
@@ -25,7 +25,7 @@
 	<property name="stability_glue" value="300"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.5"/>
-	<property name="MaxDamage" value="20000"/>
+	<property name="MaxDamage" value="200"/>
 </material>
 
 </append>
