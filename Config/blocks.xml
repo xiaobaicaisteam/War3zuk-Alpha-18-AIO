@@ -4,6 +4,18 @@
 	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
 	</append>
 	
+	<append xpath="/blocks/block[@name='ladderWood']">
+		<property name="MovementFactor" value="1.2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderMetal']">
+		<property name="MovementFactor" value="1.2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderSteel']">
+		<property name="MovementFactor" value="1.2"/>
+	</append>
+	
 	<append xpath="/blocks/block[@name='hiddenSafePaintingBen']">
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cntWallSafeInsecure"/>

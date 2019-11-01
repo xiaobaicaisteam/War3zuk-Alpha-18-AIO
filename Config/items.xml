@@ -183,6 +183,8 @@
 	<set xpath="/items/item[@name='bookFiremansAlmanacHeat']/property[@name='Stacknumber']/@value">20000</set>
 	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">100000</set>
 	
+	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
+	
 	<append xpath="/items">
 		<item name="Golden Ticket">
 			<property name="DescriptionKey" value="GoldenTicketDesc"/>
@@ -301,6 +303,7 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HDWrench.unity3d?HDWrench.Prefab"/>
 	<property name="CustomIcon" value="HD Wrench"/>
 	<property name="Material" value="Mmetal"/>
+	<property name="UnlockedBy" value="perkSalvageOperations"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -354,6 +357,7 @@
 	<property name="Tags" value="csScience"/>
 	<property name="Group" value="Science"/>
 	<property name="EconomicValue" value="500" />
+	<property name="UnlockedBy" value="perkYeahScience"/>
 	<property name="Stacknumber" value="500"/>
 	<property name="DescriptionKey" value="AFAKDesc"/>
 	<property class="Action0">
@@ -433,10 +437,10 @@
 	</effect_group>
 </item>
 
-<item name="ST Military Helmet">
+<item name="HD Military Helmet">
 	<property name="Extends" value="armorMilitaryHelmet"/>
 	<property name="CustomIcon" value="ST Military Helmet"/>
-	<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="DisplayType" value="armorLightStealth"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -448,10 +452,10 @@
 	</effect_group>
 </item>
 
-<item name="ST Military Vest">
+<item name="HD Military Vest">
 	<property name="Extends" value="armorMilitaryVest"/>
 	<property name="CustomIcon" value="ST Military Vest"/>
-	<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="DisplayType" value="armorLightStealth"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -463,10 +467,10 @@
 	</effect_group>
 </item>
 
-<item name="ST Military Gloves">
+<item name="HD Military Gloves">
 	<property name="Extends" value="armorMilitaryGloves"/>
 	<property name="CustomIcon" value="ST Military Gloves"/>
-	<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="DisplayType" value="armorLightStealth"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -478,10 +482,10 @@
 	</effect_group>
 </item>
 
-<item name="ST Military Legs">
+<item name="HD Military Legs">
 	<property name="Extends" value="armorMilitaryLegs"/>
 	<property name="CustomIcon" value="ST Military Legs"/>
-	<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="DisplayType" value="armorLightStealth"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -493,10 +497,10 @@
 	</effect_group>
 </item>
 
-<item name="ST Military Boots">
+<item name="HD Military Boots">
 	<property name="Extends" value="armorMilitaryBoots"/>
 	<property name="CustomIcon" value="ST Military Boots"/>
-	<property name="UnlockedBy" value="perkUrbanCombatLanding"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="DisplayType" value="armorLightStealth"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>

@@ -1,4 +1,10 @@
 <configs>
+	
+	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
 		
 	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
 		<item name="Ammo Supply 9mm" count="2,4" prob="0.2"/>

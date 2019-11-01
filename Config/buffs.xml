@@ -1,5 +1,7 @@
 <configs>
 	
+<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">1</set>
+	
 <append xpath="/buffs">
 
 <buff name="Penthrox Injection" tags="drug" icon="ui_game_symbol_stealth">
