@@ -67,6 +67,14 @@
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
+
+<recipe name="scrapIronLogSpike4" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+</recipe>
+
+<recipe name="woodLogSpike1" count="1">
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
 		
 <recipe name="Starter Builder"> <ingredient name="Starter Class" count="1"/></recipe>
 	<recipe name="Starter Chef"> <ingredient name="Starter Class" count="1"/></recipe>
