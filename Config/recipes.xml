@@ -313,5 +313,22 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
+<recipe name="HD Tactical AR" craft_area="workbench" count="1"  craft_time = "90" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="35"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="500 Auto Max" count="2" craft_time = "1" craft_area="workbench">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="500 Auto Max" count="50">
+	<ingredient name="Ammo Supply 500 Auto Max" count="1"/>
+</recipe>
+
 </append>
 </configs>

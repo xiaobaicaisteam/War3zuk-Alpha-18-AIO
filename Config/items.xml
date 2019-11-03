@@ -182,7 +182,9 @@
 	<set xpath="/items/item[@name='resourceSteelPolish']/property[@name='Stacknumber']/@value">20000</set>
 	<set xpath="/items/item[@name='bookFiremansAlmanacHeat']/property[@name='Stacknumber']/@value">20000</set>
 	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">100000</set>
-	
+	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">20000</set>
+	<set xpath="/items/item[@name='resourceFertilizer']/property[@name='Stacknumber']/@value">20000</set>
+	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">20000</set>
 	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
 	
@@ -298,7 +300,7 @@
 <append xpath="/items">
 
 <item name="HD Wrench">
-	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations"/>
+	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,canHaveCosmetic,canHaveCosmetic,perkSalvageOperations"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="29"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HDWrench.unity3d?HDWrench.Prefab"/>
@@ -1679,6 +1681,111 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkBoomstick"/>
 	</effect_group>
 </item>
+
+<item name="HD Tactical AR">
+	<property name="CustomIcon" value="HD Tactical AR"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="71"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
+	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="4"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="UnlockedBy" value="perkMachineGunner,gunAK47Schematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".150"/>
+		<property name="Magazine_items" value="500 Auto Max"/>
+		<property name="Sound_start" value="ak47_fire"/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="ak47_reload"/>
+		<property name="Sound_end" value="ak47_fire_end"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_AK47_fpv"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".50"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
+	</property>
+
+	<effect_group name="gunTacticalAR">
+		<passive_effect name="MaxRange" operation="base_set" value="90"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.01,.01"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".01,.01" tier="2,6"/>
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.130,.130"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.05,.05"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="500"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".5"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".2"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.1"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.5"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.2"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="2150,5150" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+</item>
+
+<item name="500 Auto Max">
+	<property name="Extends" value="ammo762mmBulletBall"/>
+	<property name="CustomIcon" value="500 AM"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	</effect_group>
+</item>
+
+	<item name="Ammo Supply 500 Auto Max">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply500Mag"/>
+	<property name="DescriptionKey" value="Ammo Supply 500 AMDesc"/>
+	</item>
 
 </append>
 </configs>

@@ -4,3 +4,5 @@ AFAKDesc,items,Medical,New,A More advanced version of the Medical Kit with Max H
 HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings as well as Upgrade broken Work Benches,Forges,Chemistry Stations & Cement Mixers.
 
 HDMilitaryDesc,Items,Armor,New, Stealth Military Armor with much less penalty than the default version.
+
+Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
