@@ -110,7 +110,7 @@
 	<ingredient name="unit_lead" count="2"/>
 </recipe>
 
-<recipe name="Titanium Polish" count="5" craft_area="chemistryStation">
+<recipe name="Titanium Polish" count="2" craft_area="chemistryStation">
 	<ingredient name="Forged Brass" count="1"/>
 	<ingredient name="Forged Titanium" count="1"/>
 	<ingredient name="resourceCrushedSand" count="1"/>
@@ -124,7 +124,7 @@
 	<ingredient name="resourceSpring" count="2"/>
 </recipe>
 
-<recipe name="HD Spas 12" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
+<recipe name="HD Spas 12" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="45"/>
 	<ingredient name="resourceDuctTape" count="10"/>

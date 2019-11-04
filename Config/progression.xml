@@ -7,7 +7,7 @@
 		<set xpath="/progression/level/@exp_to_level">8000</set>
 		
 <append xpath="/progression/perks">
-	<perk name="perkAdvanced HD Spas 12" parent="skillCraftsmanship" name_key="HD Spas 12" desc_key="Unlock The HD Spas 12 Shotgun" icon="ui_game_symbol_gunslinger" icon_color="255,0,0">
+	<perk name="perkAdvanced HD Spas 12" parent="skillCraftsmanship" name_key="HD Spas 12" desc_key="Unlock The HD Spas 12 Shotgun" icon="ui_game_symbol_shotgun" icon_color="255,0,0">
 			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
 			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
 			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>

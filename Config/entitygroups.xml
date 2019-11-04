@@ -29,7 +29,7 @@
 		<entity name="zombieSteveCrawler" prob="1"/>
 		<entity name="zombieFatHawaiian" prob="1"/>
 		<entity name="zombieFatHawaiianFeral" prob=".25"/>
-		<entity name="zombieDemolition" prob="0.15"/>
+		<entity name="zombieDemolition" prob=".15"/>
 		</entitygroup>
 		
 		<entitygroup name="ZombiesWasteland">
@@ -50,7 +50,7 @@
 		<entity name="zombieBurnt"/>
 		<entity name="zombieMaleHazmat" prob="0.2"/>
 		<entity name="zombieFatHawaiian"/>
-		<entity name="zombieDemolition" prob="0.15"/>
+		<entity name="zombieDemolition" prob=".15"/>
 		</entitygroup>
 		
 		<entitygroup name="ZombiesWastelandNight">
@@ -73,8 +73,8 @@
 		<entity name="zombieWightFeral"/>
 		<entity name="zombieMaleHazmat" prob="0.2"/>
 		<entity name="zombieFatHawaiian"/>
-		<entity name="zombieDemolition" prob="0.15"/>
-		<entity name="ZombieDemolisherArson" prob="0.15"/>
+		<entity name="zombieDemolition" prob=".15"/>
+		<entity name="ZombieDemolisherArson" prob=".15"/>
 		</entitygroup>
 		
 	<entitygroup name="ZombiesWastelandNight2">
@@ -97,8 +97,8 @@
 		<entity name="animalZombieVulture" prob="0.6"/>
 		<entity name="animalZombieVultureRadiated"  prob="0.4"/>
 		<entity name="zombieFatHawaiian"/>
-		<entity name="zombieDemolition" prob="0.15"/>
-		<entity name="ZombieDemolisherArson" prob="0.15"/>
+		<entity name="zombieDemolition" prob=".15"/>
+		<entity name="ZombieDemolisherArson" prob=".15"/>
 	</entitygroup>
 		
 </append>
