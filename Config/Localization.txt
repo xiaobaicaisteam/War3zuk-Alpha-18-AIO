@@ -6,3 +6,5 @@ HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings
 HDMilitaryDesc,Items,Armor,New, Stealth Military Armor with much less penalty than the default version.
 
 Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
+
+WW5000Desc,items,tools,New,A simple tool for clearing weeds and collecting grass.

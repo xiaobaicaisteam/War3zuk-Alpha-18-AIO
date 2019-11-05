@@ -1,8 +1,8 @@
 <configs>
 	
-<!--  <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">keystoneBlock,Starter Class</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">keystoneBlock,Starter Class</set>
 <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">keystoneBlock,Starter Class</set>
-<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">keystoneBlock,Starter Class</set> -->
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">keystoneBlock,Starter Class</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.20</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">3600</set>
 <set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='TimeStayAfterDeath']/@value">3600</set>
@@ -28,10 +28,6 @@
 	<property name="AITask-6" value="Look"/>
 	<property name="AITask-7" value="Wander"/>
 	<property name="AITask-8" value=""/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
-	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
-	<property name="AITarget-4" value=""/>
 
 	<property name="SoundRandom" value="demolitionzroam"/>
 	<property name="SoundAlert" value="demolitionzalert"/>

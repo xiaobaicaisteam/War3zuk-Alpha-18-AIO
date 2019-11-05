@@ -12,6 +12,12 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
+<recipe name="Weed Wacker 5000" count="1"  craft_time = "10">
+	<ingredient name="resourceForgedIron" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
 <recipe name="HD First Aid Kit" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
 	<ingredient name="medicalBloodBag" count="1"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
