@@ -29,7 +29,58 @@
 		<entity name="zombieSteveCrawler" prob="1"/>
 		<entity name="zombieFatHawaiian" prob="1"/>
 		<entity name="zombieFatHawaiianFeral" prob="1"/>
+		<entity name="zombieBoe" prob="1"/>
+		<entity name="zombieJoe" prob="1"/>
+		<entity name="zombieSteve" prob="1"/>
+		<entity name="zombieMoe" prob="1"/>
+		<entity name="zombieYo" prob="1"/>
+		<entity name="zombieBusinessMan" prob="1"/>
+		<entity name="zombieArlene" prob="1"/>
+		<entity name="zombieDarlene" prob="1"/>
+		<entity name="zombieMarlene" prob="1"/>
+		<entity name="zombieNurse" prob="1"/>
+		<entity name="animalZombieDog" prob="1"/>
+		<entity name="zombieSteveCrawler" prob="1"/>
+		<entity name="zombieFatCop" prob="1"/>
+		<entity name="zombieBurnt" prob="1"/>
+		<entity name="zombieMaleHazmat" prob="1"/>
+		<entity name="zombieFatHawaiian" prob="1"/>
+		<entity name="zombieBoeFeral" prob="1"/>
+		<entity name="zombieJoeFeral" prob="1"/>
+		<entity name="zombieSteveFeral" prob="1"/>
+		<entity name="zombieMoeFeral" prob="1"/>
+		<entity name="zombieYoFeral" prob="1"/>
+		<entity name="zombieBusinessManFeral" prob="1"/>
+		<entity name="zombieArleneFeral" prob="1"/>
+		<entity name="zombieDarleneFeral" prob="1"/>
+		<entity name="zombieMarleneFeral" prob="1"/>
+		<entity name="zombieNurseFeral" prob="1"/>
+		<entity name="animalZombieDog" prob="1"/>
+		<entity name="zombieSteveCrawlerFeral" prob="1"/>
+		<entity name="zombieFatCopFeral" prob="1"/>
+		<entity name="zombieBurnt" prob="1"/>
+		<entity name="animalZombieBear" prob="1"/>
+		<entity name="zombieWightFeral" prob="1"/>
+		<entity name="zombieMaleHazmat" prob="1"/>
+		<entity name="zombieFatHawaiian" prob="1"/>
+		<entity name="zombieBoe" prob="1"/>
+		<entity name="zombieJoe" prob="1"/>
+		<entity name="zombieSteve" prob="1"/>
+		<entity name="zombieMoe" prob="1"/>
+		<entity name="zombieYo" prob="1"/>
+		<entity name="zombieArlene" prob="1"/>
+		<entity name="zombieDarlene" prob="1"/>
+		<entity name="zombieMarlene" prob="1"/>
+		<entity name="zombieNurse" prob="1"/>
+		<entity name="animalZombieDog" prob="1"/>
+		<entity name="zombieSteveCrawler" prob="1"/>
+		<entity name="zombieFatCop" prob="1"/>
+		<entity name="zombieBurnt" prob="1"/>
+		<entity name="animalZombieBear" prob="1"/>
+		<entity name="zombieWightFeral" prob="1"/>
+		<entity name="zombieFatHawaiian" prob="1"/>
 		<entity name="zombieDemolition" prob="1"/>
+		<entity name="ZombieDemolisherArson" prob="1"/>
 		</entitygroup>
 		
 		<entitygroup name="ZombiesWasteland">
