@@ -7,3 +7,4 @@ Fixed HD Wrench not having Dyes
 ADDED Tactical AR Along with its needed files & ammo
 FIXED issue with Crucible & HD Forge
 Adjusted recipes for 4 items
+ADDED Lootable aggresive animals
