@@ -1,191 +1,5 @@
 <configs>
 	
-	<append xpath="/blocks/block[@name='bedroll']">
-	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
-	</append>
-	
-	<append xpath="/blocks/block[@name='ladderWood']">
-		<property name="MovementFactor" value="1.2"/>
-	</append>
-
-	<append xpath="/blocks/block[@name='ladderMetal']">
-		<property name="MovementFactor" value="1.2"/>
-	</append>
-
-	<append xpath="/blocks/block[@name='ladderSteel']">
-		<property name="MovementFactor" value="1.2"/>
-	</append>
-	
-	<append xpath="/blocks/block[@name='hiddenSafePaintingBen']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntWallSafeInsecure"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="5"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='hiddenSafePaintingLorien']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntWallSafeInsecure"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="5"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='hiddenSafePaintingDerek']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntWallSafeInsecure"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="5"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='hiddenSafePaintingNoah']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntWallSafeInsecure"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="5"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='hiddenSafePaintingDuke']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntWallSafeInsecure"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="5"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='hiddenSafePaintingKen']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cntWallSafeInsecure"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="5"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='cntCollapsedWorkbench']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="workbench"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="2"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='cntCollapsedForge']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="forge"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="2"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="chemistryStation"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="2"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='cntCollapsedCementMixer']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="cementMixer"/>
-			<property name="Item" value="HD Lock Pick"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="2"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='steelArch']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArch"/> </property></append>
-	<append xpath="/blocks/block[@name='steelArrowSlitHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArrowSlitHalf"/> </property></append>
-	<append xpath="/blocks/block[@name='steelBlock']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelBlock"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCNRFull']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRFull"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCNRInside']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRInside"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCNRRamp']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRamp"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCNRRampFiller']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRampFiller"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCNRRound']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRound"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCNRRoundTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRoundTop"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCTRPlate']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCTRPlate"/> </property></append>
-	<append xpath="/blocks/block[@name='steelCTRpole']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCTRpole"/> </property></append>
-	<append xpath="/blocks/block[@name='steelEighth']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelEighth"/> </property></append>
-	<append xpath="/blocks/block[@name='steelGableInvertedHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedHalf"/> </property></append>
-	<append xpath="/blocks/block[@name='steelGableInvertedQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedQuarter"/> </property></append>
-	<append xpath="/blocks/block[@name='steelGableInvertedSteep']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedSteep"/> </property></append>
-	<append xpath="/blocks/block[@name='steelGableQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableQuarter"/> </property></append>
-	<append xpath="/blocks/block[@name='steelHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelHalf"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPillar100']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPillar100Cap']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100Cap"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPillar50']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar50"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPlate']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPlate"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPlateOffset']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPlateOffset"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPole']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPole"/> </property></append>
-	<append xpath="/blocks/block[@name='steelPyramid']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPyramid"/> </property></append>
-	<append xpath="/blocks/block[@name='steelQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarter"/> </property></append>
-	<append xpath="/blocks/block[@name='steelQuarterCNR']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterCNR"/> </property></append>
-	<append xpath="/blocks/block[@name='steelQuarterCNR3Way']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterCNR3Way"/> </property></append>
-	<append xpath="/blocks/block[@name='steelQuarterSCtr']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterSCtr"/> </property></append>
-	<append xpath="/blocks/block[@name='steelQuarterTeeSCtr']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterTeeSCtr"/> </property></append>
-	<append xpath="/blocks/block[@name='steelRamp']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelRamp"/> </property></append>
-	<append xpath="/blocks/block[@name='steelStairs25']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25"/> </property></append>
-	<append xpath="/blocks/block[@name='steelStairs25CornerCNR']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25CornerCNR"/> </property></append>
-	<append xpath="/blocks/block[@name='steelStairsFilledRailingLeft']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairsFilledRailingLeft"/> </property></append>
-	<append xpath="/blocks/block[@name='steelStairsFilledRailingRight']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairsFilledRailingRight"/> </property></append>
-	<append xpath="/blocks/block[@name='steelSupport']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelSupport"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedge']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedge"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeCNRInsideBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideBottom"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeCNRInsideSteepBase']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideSteepBase"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeCNRInsideSteepTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideSteepTop"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeCNRInsideTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideTop"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeCNRSteepBase']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRSteepBase"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeCNRSteepTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRSteepTop"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeIncline']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeIncline"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeStairs"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeTip']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTip"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullBottom"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullTop"/> </property></append>
-	<append xpath="/blocks/block[@name='steelWedgeTipStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipStairs"/> </property></append>
-	
-	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">20</set>
-	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">25</set>
-	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">35</set>
-	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">40</set>
-	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">55</set>
-	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">65</set>
-	
-	<append xpath="/blocks/block[@name='steelMaster']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="stainlessSteelMaster"/>
-			<property name="Item" value="Titanium Polish"/>
-			<property name="ItemCount" value="10"/>
-			<property name="UpgradeHitCount" value="4"/>
-		</property>
-	</append>
-			
-	<append xpath="/blocks/block[@name='stainlessSteelMaster']">
-		<property class="RepairItems">
-			<property name="Titanium Polish" value="10"/>
-		</property>
-	</append>
-	
-	<append xpath="/blocks/block[@name='steelLogSpike6']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="TitaniumLogSpike7"/>
-			<property name="Item" value="Titanium Polish"/>
-			<property name="ItemCount" value="10"/>
-			<property name="UpgradeHitCount" value="4"/>
-		</property>
-	</append>
-	
 <append xpath="/blocks">
 	
 <block name="TitaniumLogSpike7"> <!-- log spike 7 Titanium -->
@@ -581,4 +395,191 @@
 </block>
 
 </append>
+	
+	<append xpath="/blocks/block[@name='steelArch']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArch"/> </property></append>
+	<append xpath="/blocks/block[@name='steelArrowSlitHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArrowSlitHalf"/> </property></append>
+	<append xpath="/blocks/block[@name='steelBlock']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelBlock"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRFull']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRFull"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRInside']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRInside"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRamp']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRamp"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRampFiller']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRampFiller"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRound']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRound"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCNRRoundTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCNRRoundTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCTRPlate']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCTRPlate"/> </property></append>
+	<append xpath="/blocks/block[@name='steelCTRpole']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelCTRpole"/> </property></append>
+	<append xpath="/blocks/block[@name='steelEighth']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelEighth"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableInvertedHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedHalf"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableInvertedQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedQuarter"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableInvertedSteep']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableInvertedSteep"/> </property></append>
+	<append xpath="/blocks/block[@name='steelGableQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelGableQuarter"/> </property></append>
+	<append xpath="/blocks/block[@name='steelHalf']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelHalf"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPillar100']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPillar100Cap']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar100Cap"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPillar50']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPillar50"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPlate']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPlate"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPlateOffset']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPlateOffset"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPole']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPole"/> </property></append>
+	<append xpath="/blocks/block[@name='steelPyramid']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelPyramid"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarter']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarter"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterCNR']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterCNR"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterCNR3Way']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterCNR3Way"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterSCtr']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterSCtr"/> </property></append>
+	<append xpath="/blocks/block[@name='steelQuarterTeeSCtr']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelQuarterTeeSCtr"/> </property></append>
+	<append xpath="/blocks/block[@name='steelRamp']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelRamp"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairs25']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairs25CornerCNR']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairs25CornerCNR"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairsFilledRailingLeft']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairsFilledRailingLeft"/> </property></append>
+	<append xpath="/blocks/block[@name='steelStairsFilledRailingRight']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelStairsFilledRailingRight"/> </property></append>
+	<append xpath="/blocks/block[@name='steelSupport']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelSupport"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedge']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedge"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideBottom"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideSteepBase']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideSteepBase"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideSteepTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideSteepTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRInsideTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRInsideTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRSteepBase']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRSteepBase"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeCNRSteepTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeCNRSteepTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeIncline']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeIncline"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeStairs"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTip']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTip"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullBottom']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullBottom"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTipCNRFullTop']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipCNRFullTop"/> </property></append>
+	<append xpath="/blocks/block[@name='steelWedgeTipStairs']"><property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelWedgeTipStairs"/> </property></append>
+	
+	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">20</set>
+	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">25</set>
+	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">35</set>
+	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">40</set>
+	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">55</set>
+	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">65</set>
+	
+	<append xpath="/blocks/block[@name='steelMaster']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="stainlessSteelMaster"/>
+			<property name="Item" value="Titanium Polish"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+			
+	<append xpath="/blocks/block[@name='stainlessSteelMaster']">
+		<property class="RepairItems">
+			<property name="Titanium Polish" value="10"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='steelLogSpike6']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="TitaniumLogSpike7"/>
+			<property name="Item" value="Titanium Polish"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='bedroll']">
+	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='ladderWood']">
+		<property name="MovementFactor" value="1.2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderMetal']">
+		<property name="MovementFactor" value="1.2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderSteel']">
+		<property name="MovementFactor" value="1.2"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingBen']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingLorien']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDerek']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingNoah']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDuke']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingKen']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedWorkbench']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workbench"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedForge']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="forge"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="chemistryStation"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedCementMixer']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cementMixer"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
 </configs>

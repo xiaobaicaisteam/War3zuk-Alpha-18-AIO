@@ -1,7 +1,7 @@
 <configs>
 	
 	<set xpath="/recipes/recipe[@name='resourceGlue'][@craft_area='campfire']/ingredient[@name='resourceBone']/@count">2</set>
-	<set xpath="/recipes/recipe[@name='resourceGlue'][@craft_area='chemistryStation']/ingredient[@name='resourceBone']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='resourceGlue'][@craft_area='chemistryStation']/ingredient[@name='resourceBone']/@count">1</set>
 	
 <append xpath="/recipes">
 
@@ -39,7 +39,7 @@
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 	
 <recipe name="HD Military Gloves" count="1" craft_time = "60" tags="learnable,perkLightArmor">
@@ -47,7 +47,7 @@
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 		
 <recipe name="HD Military Legs" count="1" craft_time = "60" tags="learnable,perkLightArmor">
@@ -55,7 +55,7 @@
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 	
 <recipe name="HD Military Boots" count="1" craft_time = "60" tags="learnable,perkLightArmor">
@@ -63,7 +63,7 @@
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 	
 <recipe name="HD Military Helmet" count="1" craft_time = "60" tags="learnable,perkLightArmor">
@@ -71,7 +71,7 @@
 	<ingredient name="resourceMilitaryFiber" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
 
 <recipe name="scrapIronLogSpike4" count="1">
@@ -90,7 +90,7 @@
 <recipe name="Starter Security"> <ingredient name="Starter Class" count="1"/></recipe>
 	
 <recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
-	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceDuctTape" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="30"/>
@@ -131,7 +131,7 @@
 </recipe>
 
 <recipe name="HD Spas 12" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkBoomstick">
-	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="45"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="25"/>
@@ -140,8 +140,8 @@
 
 <recipe name="HD Lock Pick" count="1" craft_time = "10" >
 	<ingredient name="resourceForgedIron" count="10"/>
-	<ingredient name="resourceOil" count="2"/>
-	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="resourceLeather" count="1"/>
 </recipe>
 		
 <recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">
@@ -311,7 +311,7 @@
 	<ingredient name="drinkJarEmpty" count="1"/>
 </recipe>
 	
-<recipe name="Adv Junk Turret" count="1" craft_time = "30" tags="perkMiner69r">
+<recipe name="Adv Junk Turret" count="1" craft_time = "30" tags="perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
 	<ingredient name="gunJunkTurretParts" count="10"/>
 	<ingredient name="resourceForgedIron" count="50"/>

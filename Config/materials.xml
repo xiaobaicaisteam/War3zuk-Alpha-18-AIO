@@ -25,7 +25,7 @@
 	<property name="stability_glue" value="300"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.5"/>
-	<property name="MaxDamage" value="200"/>
+	<property name="MaxDamage" value="20000"/>
 </material>
 
 </append>

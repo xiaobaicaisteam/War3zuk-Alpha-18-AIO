@@ -185,7 +185,8 @@
 	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">20000</set>
 	<set xpath="/items/item[@name='resourceFertilizer']/property[@name='Stacknumber']/@value">20000</set>
 	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
+	
+	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.2</set>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
 	
 	<append xpath="/items">
@@ -282,14 +283,6 @@
 	<property name="DescriptionKey" value="ammoSupplyDesc"/>
 		</item>
 	</append>
-
-<append xpath="/items/item[@name='medicalFirstAidBandage']">
-<property name="CustomIcon" value="medicalFirstAidBandage"/>
-</append>
-
-<append xpath="/items/item[@name='medicalFirstAidKit']">
-<property name="CustomIcon" value="medicalFirstAidKit"/>
-</append>
 	
 	<set xpath="/items/item[starts-with(@name,'vehicle') and contains(@name,'Placeable')]/property[@name='SellableToTrader' and @value='false']/@value">true</set>
 	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='EconomicValue'][@value='6000']/@value">5000</set>
@@ -1188,13 +1181,13 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/> <!-- aimTest -->
-	<property name="CrosshairUpAfterShot" value="true"/> <!-- aimTest -->
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="revolver_sight_in"/>
 	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
-	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
+	<property name="LightSource" value="lightSource"/>
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
-	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/> <!-- End: Needed for the attachment flashlight -->
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
@@ -1277,12 +1270,12 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<effect_group name="Base Effects" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="70"/>
+		<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
 	</effect_group>
 </item>
