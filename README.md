@@ -17,3 +17,5 @@ FIXED issue with Crucible & HD Forge
 Adjusted recipes for 4 items
 
 ADDED Lootable aggresive animals
+
+Replaced all remaining Icons to HD
