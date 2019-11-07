@@ -293,7 +293,7 @@
 <append xpath="/items">
 
 <item name="HD Wrench">
-	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,canHaveCosmetic,canHaveCosmetic,perkSalvageOperations"/>
+	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="29"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HDWrench.unity3d?HDWrench.Prefab"/>
@@ -1171,7 +1171,7 @@
 </item>
 
 <item name="Punisher">
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Desert Eagle 50.unity3d?DE50CAL.Prefab"/>
@@ -1402,7 +1402,7 @@
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="Fat Soaked Log Bundle"/>
+	<property name="CustomIcon" value="resourceWood"/>
 	<property name="Material" value="MresourceWood"/>
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="10000"/>

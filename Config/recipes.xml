@@ -313,10 +313,10 @@
 	
 <recipe name="Adv Junk Turret" count="1" craft_time = "30" tags="perkTurrets">
 	<ingredient name="gunJunkTurret" count="1"/>
-	<ingredient name="gunJunkTurretParts" count="10"/>
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceScrapPolymers" count="15"/>
-	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="gunJunkTurretParts" count="5"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
 <recipe name="HD Tactical AR" craft_area="workbench" count="1"  craft_time = "90" tags="learnable,perkMachineGunner">
