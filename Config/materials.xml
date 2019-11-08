@@ -1,6 +1,7 @@
 <configs>
 	
-<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">20000</set>
+<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">12000</set>
+<set xpath="/materials/material[@id='MTitaniumPolish']/property[@name='MaxDamage']/@value">20000</set>
 	
 <append xpath="/materials">
 
@@ -16,7 +17,7 @@
 	<property name="forge_category" value="Brass"/>
 </material>
 
-<material id="Titanium Polish">
+<material id="MSteelPolish">
 	<property name="damage_category" value="metal"/>
 	<property name="surface_category" value="metal"/>
 	<property name="forge_category" value="iron"/>
@@ -24,8 +25,22 @@
 	<property name="stepsound" value="metal"/>
 	<property name="stability_glue" value="300"/>
 	<property name="Mass" type="int" value="20"/>
-	<property name="explosionresistance" value="2.5"/>
+	<property name="explosionresistance" value="1.75"/>
+	<property name="MaxDamage" value="12000"/>
+	<property name="Experience" value="5"/>
+</material>
+
+<material id="MTitaniumPolish">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="2.0"/>
 	<property name="MaxDamage" value="20000"/>
+	<property name="Experience" value="6"/>
 </material>
 
 </append>

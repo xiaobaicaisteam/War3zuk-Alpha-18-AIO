@@ -73,14 +73,6 @@
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceSewingKit" count="2"/>
 </recipe>
-
-<recipe name="scrapIronLogSpike4" count="1">
-	<ingredient name="resourceScrapIron" count="10"/>
-</recipe>
-
-<recipe name="woodLogSpike1" count="1">
-	<ingredient name="resourceWood" count="10"/>
-</recipe>
 		
 <recipe name="Starter Builder"> <ingredient name="Starter Class" count="1"/></recipe>
 	<recipe name="Starter Chef"> <ingredient name="Starter Class" count="1"/></recipe>
@@ -95,31 +87,6 @@
 	<ingredient name="resourceDuctTape" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="30"/>
 	<ingredient name="resourceSpring" count="10"/>
-</recipe>
-
-<recipe name="HD Forge" count="1" craft_time = "90" >
-	<ingredient name="resourceRockSmall" count="100"/>
-	<ingredient name="resourceClayLump" count="100"/>
-	<ingredient name="resourceForgedIron" count="20"/>
-	<ingredient name="resourceMetalPipe" count="10"/>
-</recipe>
-
-<recipe name="Forged Brass" count="4" craft_area="forge" craft_time="1" material_based="true">
-	<ingredient name="unit_brass" count="2"/>
-	<ingredient name="unit_clay" count="2"/>
-</recipe>
-
-<recipe name="Forged Titanium" count="4" material_based="true" craft_area="forge" craft_time="1" craft_tool="toolForgeCrucible">
-	<ingredient name="unit_iron" count="2"/>
-	<ingredient name="unit_brass" count="2"/>
-	<ingredient name="unit_clay" count="2"/>
-	<ingredient name="unit_lead" count="2"/>
-</recipe>
-
-<recipe name="Titanium Polish" count="2" craft_area="chemistryStation">
-	<ingredient name="Forged Brass" count="1"/>
-	<ingredient name="Forged Titanium" count="1"/>
-	<ingredient name="resourceCrushedSand" count="1"/>
 </recipe>
 
 <recipe name="HD Wrench" craft_area="workbench" count="1" craft_time = "90" tags="learnable,perkSalvageOperations">
@@ -334,6 +301,55 @@
 
 <recipe name="500 Auto Max" count="50">
 	<ingredient name="Ammo Supply 500 Auto Max" count="1"/>
+</recipe>
+
+<recipe name="Crop Plot" count="1" craft_time="10">
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+	<ingredient name="resourceClayLump" count="10"/>
+</recipe>
+
+<recipe name="HD Forge" count="1" craft_time = "60" >
+	<ingredient name="resourceRockSmall" count="100"/>
+	<ingredient name="resourceClayLump" count="100"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
+</recipe>
+
+<recipe name="Forged Brass" count="2" material_based="true" craft_area="forge" craft_time="1" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_brass" count="2"/>
+	<ingredient name="unit_clay" count="2"/>
+</recipe>
+
+<recipe name="Forged Titanium" count="2" material_based="true" craft_area="forge" craft_time="1" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_iron" count="2"/>
+	<ingredient name="unit_brass" count="2"/>
+	<ingredient name="unit_clay" count="2"/>
+	<ingredient name="unit_lead" count="2"/>
+</recipe>
+
+<recipe name="Congealed Metal" count="5" craft_area="chemistryStation">
+	<ingredient name="Forged Brass" count="1"/>
+	<ingredient name="Forged Titanium" count="1"/>
+</recipe>
+
+<recipe name="Steel Polish" count="1" craft_area="chemistryStation">
+	<ingredient name="Congealed Metal" count="1"/>
+	<ingredient name="resourceCrushedSand" count="1"/>
+</recipe>
+
+<recipe name="Titanium Polish" count="1" craft_area="chemistryStation">
+	<ingredient name="Congealed Metal" count="1"/>
+	<ingredient name="Steel Polish" count="1"/>
+</recipe>
+
+<recipe name="scrapIronLogSpike4" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+</recipe>
+
+<recipe name="woodLogSpike1" count="1">
+	<ingredient name="resourceWood" count="10"/>
 </recipe>
 
 </append>
