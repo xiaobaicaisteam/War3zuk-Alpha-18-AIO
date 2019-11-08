@@ -19,3 +19,5 @@ Adjusted recipes for 4 items
 ADDED Lootable aggresive animals
 
 Replaced all remaining Icons to HD
+
+ADDED HD Forge along with all its files & Icons, Also Polish for upgrading blocks
