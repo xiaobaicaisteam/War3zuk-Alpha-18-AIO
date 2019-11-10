@@ -21,3 +21,5 @@ ADDED Lootable aggresive animals
 Replaced all remaining Icons to HD
 
 ADDED HD Forge along with all its files & Icons, Also Polish for upgrading blocks
+
+Fixed remaining items, Duplicates, XUI & Forge with the Help of (StallionsDen)
