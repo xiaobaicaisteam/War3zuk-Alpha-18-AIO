@@ -30,13 +30,16 @@
 			<passive_effect name="DismemberChance" operation="base_add" level="2,10" value=".05,.45"/>
 			</append>
 	
+	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='1,5']/@tags">,Donnas Fubar Stew</append>
 	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='1,5']/@tags">,HD First Aid Kit</append>
 	<append xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group/passive_effect[@level='1,5']/@tags">,HD Military Vest,HD Military Gloves,HD Military Legs,HD Military Boots,HD Military Helmet</append>
+	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='1,5']/@tags">,HD Auger,HD Chainsaw</append>
 	
 		<set xpath="/progression/level/@skill_points_per_level">5</set>
 		<set xpath="/progression/level/@exp_to_level">8000</set>
 		
 <append xpath="/progression/perks">
+	
 	<perk name="perkAdvanced HD Spas 12" parent="skillCraftsmanship" name_key="HD Spas 12" desc_key="Unlock The HD Spas 12 Shotgun" icon="ui_game_symbol_shotgun" icon_color="255,0,0">
 			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
 			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
@@ -82,7 +85,7 @@
 				</effect_group>
 		</perk>
 		
-	<perk name="perkAdvanced Punisher" parent="skillCraftsmanship" name_key="Punisher" desc_key="Unlock The Original Zombie Killer!" icon="ui_game_symbol_gunslinger" icon_color="255,0,0">
+	<perk name="perkAdvanced HD Desert Eagle" parent="skillCraftsmanship" name_key="HD Desert Eagle" desc_key="Unlock The Original Zombie Killer!" icon="ui_game_symbol_gunslinger" icon_color="255,0,0">
 			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
 			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
 			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
@@ -90,7 +93,7 @@
 			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
 
 				<effect_group>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="Punisher"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="HD Desert Eagle"/>
 				</effect_group>
 				<effect_group>
 					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: The ultimate Zombie Killing Pistol"/>

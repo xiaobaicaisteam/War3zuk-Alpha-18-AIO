@@ -2,205 +2,20 @@
 	
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
-	
-	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']/@value">true</set>
-	<set xpath="/items/item[@name='meleeToolTorch']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='meleeToolWireTool']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='meleeToolPaintTool']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoJunkTurret']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoArrowExploding']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='thrownGrenadeContact']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='thrownDynamite']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='thrownAmmoMolotovCocktail']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='thrownAmmoFlare']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='gunAk47Parts']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalBandage']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalBloodDrawKit']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugAntibiotics']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugRedPill']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugRecog']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drugFortBites']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCanBeef']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCornOnTheCob']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCornBread']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodMoldyBread']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCharredMeat']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodGrilledMeat']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodBoiledMeat']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodMeatStew']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodHoboStew']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodFishTacos']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodBakedPotato']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodBlueberryPie']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodPumpkinPie']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodPumpkinBread']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodEggBoiled']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodBaconAndEggs']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropBlueberries']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropCorn']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkCanEmpty']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='bucketEmpty']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='bucketRiverWater']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='blankNoteMaster']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='questMaster']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceSnowBall']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceAcid']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceIronFragment']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceScrapIron']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceMetalPipe']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceSewingKit']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceOilShale']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceBone']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceAnimalFat']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCropHopsFlower']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCropAloeLeaf']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCropChrysanthemumPlant']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCropCottonPlant']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCropGoldenrodPlant']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCropCoffeeBeans']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceScrapLead']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">20000</set>	
-	<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceElectricParts']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceElectronicParts']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceMechanicalParts']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceArrowHeadIron']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceArrowHeadSteelAP']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceBuckshot']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceBulletTip']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceNail']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceRocketTip']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceRocketCasing']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceHubcap']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceAirFilter']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCandyTin']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceDoorKnob']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceCandleStick']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceFishingWeight']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceTrophy1']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceTrophy2']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceTrophy3']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='candle']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceHeadlight']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceGlue']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceDuctTape']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceSpring']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolCookingPot']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceSteelPolish']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='bookFiremansAlmanacHeat']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">100000</set>
-	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='resourceFertilizer']/property[@name='Stacknumber']/@value">20000</set>
-	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">20000</set>
+	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">20000</set>
 	
 	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.2</set>
 	
 	<append xpath="/items">
-		<item name="Golden Ticket">
-			<property name="DescriptionKey" value="GoldenTicketDesc"/>
-			<property name="CustomIcon" value="Golden Ticket" />
+		<item name="Golden Coin">
+			<property name="DescriptionKey" value="GoldenCoinDesc"/>
+			<property name="CustomIcon" value="Golden Coin" />
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="100"/>
-			<property name="EconomicValue" value="5000"/>
+			<property name="Stacknumber" value="20000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="CraftingIngredientTime" value="0.001"/>
@@ -301,7 +116,6 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HDWrench.unity3d?HDWrench.Prefab"/>
 	<property name="CustomIcon" value="HD Wrench"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="UnlockedBy" value="perkSalvageOperations"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -327,15 +141,15 @@
 	<effect_group name="Base Effects">
 		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="50.5"/> <!-- meleeToolWrench -->
-		<passive_effect name="BlockDamage" operation="base_set" value="50"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.3" tags="stone"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="15.5"/> <!-- meleeToolWrench -->
+		<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/> <!-- A16 1.1 -->
-		<passive_effect name="HarvestCount" operation="base_set" value="3.5" tags="salvageHarvest"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="2.0" tags="primary"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="80"/> <!-- A16 1.1 -->
+		<passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="salvageHarvest"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="1.2" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tier="1,6"/>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".50" tags="EntityDamage,BlockDamage"/>
@@ -902,6 +716,7 @@
 	<property name="Group" value="Resources,Chemicals"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="ShowQuality" value="false"/>
+	<property name="DescriptionKey" value="HDCellDesc"/>
 	<property class="Attributes">
 		<property name="DegradationMax" value="10916,10922"/>
 		<property name="BatteryMaxLoadInVolts" value="10916, 10922"/>
@@ -1006,8 +821,9 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 	</effect_group>
 	</item>
-	
-<item name="meleeToolAuger">
+
+<item name="HD Auger">
+	<property name="CustomIcon" value="HD Auger" />
 	<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 	<property name="DisplayType" value="motorTool"/>
 	<property name="HoldType" value="20"/>
@@ -1019,8 +835,8 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,meleeToolAugerSchematic"/>
 	<property name="ShowQuality" value="true"/>
+	<property name="UnlockedBy" value="meleeToolAugerSchematic"/>
 
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -1041,19 +857,25 @@
 	</property>
 
 	<effect_group name="meleeToolAuger">
+		<passive_effect name="EntityDamage" operation="base_set" value="4.2"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="50.7"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.35"/>
-		<passive_effect name="BlockRange" operation="base_set" value="4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="5"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
 		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-
-		<passive_effect name="EntityDamage" operation="base_set" value="4.2"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-
 		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="20.7"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".5,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
@@ -1062,34 +884,24 @@
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
-
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-
 		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
-
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
-
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
 
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
-
-		<passive_effect name="DegradationMax" operation="base_set" value="2000,1200" tier="1,6" tags="perkMiner69r"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="0.1" tags="perkMiner69r"/>
 	</effect_group>
 </item>
 
-<item name="meleeToolChainsaw">
+<item name="HD Chainsaw">
+	<property name="CustomIcon" value="HD Chainsaw" />
 	<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,chainsaw,canHaveCosmetic"/>
 	<property name="DisplayType" value="motorTool"/>
 	<property name="HoldType" value="19"/>
@@ -1100,8 +912,8 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
-	<property name="UnlockedBy" value="perkAdvancedEngineering,meleeToolChainsawSchematic"/>
 	<property name="ShowQuality" value="true"/>
+	<property name="UnlockedBy" value="meleeToolChainsawSchematic"/>
 
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -1122,18 +934,24 @@
 	</property>
 
 	<effect_group name="meleeToolChainsaw">
+		<passive_effect name="EntityDamage" operation="base_set" value="6"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="50.1"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.35"/>
-		<passive_effect name="BlockRange" operation="base_set" value="4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="5"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
 		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-
-		<passive_effect name="EntityDamage" operation="base_set" value="6"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-
 		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="24.3"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 
@@ -1146,33 +964,23 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="metal"/>
 
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-
-		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="300"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
-
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
-
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
 
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
-
-		<passive_effect name="DegradationMax" operation="base_set" value="2000,1200" tier="1,6" tags="perkMiner69r"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="0.1" tags="perkMiner69r"/>
 	</effect_group>
 </item>
 
-<item name="Punisher">
+<item name="HD Desert Eagle">
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
@@ -1882,6 +1690,62 @@
 	<property name="Group" value="Chemicals"/>
 	<property name="DescriptionKey" value="CMDesc"/>
 </item>
+
+		<item name="Donnas Fubar Stew">
+			<property name="HoldType" value="31"/>
+			<property name="DescriptionKey" value="DonnasFubarStewDesc"/>
+			<property name="CustomIcon" value="Donnas Fubar Stew"/>
+			<property name="DisplayType" value="food"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="20000"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="2.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_eating"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="40"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+			</effect_group>
+		</item>
+		
+		<item name="Donnas Fubar Steak">
+			<property name="HoldType" value="31"/>
+			<property name="DescriptionKey" value="DonnasFubarSteakDesc"/>
+			<property name="CustomIcon" value="Donnas Fubar Steak"/>
+			<property name="DisplayType" value="food"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="20000"/>
+			<property name="EconomicValue" value="80"/>
+			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_eating"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="25"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
+			</effect_group>
+		</item>
 
 </append>
 </configs>

@@ -4,8 +4,22 @@
 	<set xpath="/recipes/recipe[@name='resourceGlue'][@craft_area='chemistryStation']/ingredient[@name='resourceBone']/@count">1</set>
 	
 <append xpath="/recipes">
+	
+<recipe name="HD Auger" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkSalvageOperations">
+	<ingredient name="meleeToolAuger" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
 
-<recipe name="Punisher" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
+<recipe name="HD Chainsaw" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkSalvageOperations">
+	<ingredient name="meleeToolChainsaw" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Desert Eagle" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
 	<ingredient name="resourceForgedSteel" count="75"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
@@ -265,12 +279,12 @@
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="Golden Ticket" craft_time = "5" count="1">
+<recipe name="Golden Coin" craft_time = "5" count="1">
 	<ingredient name="casinoCoin" count="10000"/>
 </recipe>
 		
 <recipe name="casinoCoin" craft_time = "1" count="10000">
-	<ingredient name="Golden Ticket" count="1"/>
+	<ingredient name="Golden Coin" count="1"/>
 </recipe>
 		
 <recipe name="resourceAcid" count="1" craft_time = "5" tags="perkMiner69r">
@@ -350,6 +364,20 @@
 
 <recipe name="woodLogSpike1" count="1">
 	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="Donnas Fubar Stew" count="2" craft_time="10" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot" >
+	<ingredient name="Donnas Fubar Steak" count="1"/>
+	<ingredient name="foodCanSham" count="1"/>
+	<ingredient name="foodCanPasta" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="foodCanTuna" count="1"/>
+</recipe>
+		
+<recipe name="Donnas Fubar Steak" count="1" craft_time="2" craft_area="campfire" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceBone" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
 </append>
