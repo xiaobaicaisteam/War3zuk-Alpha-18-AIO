@@ -23,3 +23,7 @@ Replaced all remaining Icons to HD
 ADDED HD Forge along with all its files & Icons, Also Polish for upgrading blocks
 
 Fixed remaining items, Duplicates, XUI & Forge with the Help of (StallionsDen)
+
+Fixed Penthrox Model & Code also Added drinking Vile is instant death
+
+Fixed & Added The Flame Thrower from FireArms 2 Modlet
