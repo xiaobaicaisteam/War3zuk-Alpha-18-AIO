@@ -380,5 +380,58 @@
 	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
+<!--  Valmar Stallionsden War3zuk EDIT -->
+<recipe name="Hollow Tip" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+     <ingredient name="unit_lead" count="2"/>
+     <ingredient name="unit_clay" count="2"/>
+</recipe>
+	
+<recipe name="9mm Bullet INC" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+	
+<recipe name="44Mag Bullet INC" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+	
+<recipe name="50Mag Bullet INC" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="1"/>
+</recipe>	
+	
+<recipe name="500Mag Bullet INC" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+	
+<recipe name="762Mag Bullet INC" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+<!--  Valmar Stallionsden War3zuk EDIT -->
+
+<!--  Mayic War3zuk EDIT -->
+<recipe name="HD Flame Thrower" craft_area="workbench" count="1"  craft_time = "0.5" tags="learnable,workbench" >
+	<ingredient name="meleeToolChainsawParts" count="10"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="Fuel Canister" craft_area="workbench" count="100"  craft_time = "0.5" tags="learnable,workbench" >
+	<ingredient name="resourceForgedSteel" count="5"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="ammoGasCan" count="100"/>
+</recipe>
+<!--  Mayic War3zuk EDIT -->
+
 </append>
 </configs>

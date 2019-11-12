@@ -1,7 +1,6 @@
 <configs>
 	
 <set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">12000</set>
-<set xpath="/materials/material[@id='MTitaniumPolish']/property[@name='MaxDamage']/@value">20000</set>
 	
 <append xpath="/materials">
 

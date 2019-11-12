@@ -91,6 +91,18 @@
 	<property name="LootListOnDeath" value="505"/>
 </append>
 
+<append xpath="/entity_classes/entity_class[@name='animalStag']">
+	<property name="LootListOnDeath" value="506"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalRabbit']">
+	<property name="LootListOnDeath" value="507"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='animalChicken']">
+	<property name="LootListOnDeath" value="508"/>
+</append>
+
 <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
     <passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
 </append>
