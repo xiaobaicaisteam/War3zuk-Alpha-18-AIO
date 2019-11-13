@@ -27,3 +27,7 @@ Fixed remaining items, Duplicates, XUI & Forge with the Help of (StallionsDen)
 Fixed Penthrox Model & Code also Added drinking Vile is instant death
 
 Fixed & Added The Flame Thrower from FireArms 2 Modlet
+
+Fixed 3 Bugs
+
+Added 105 Player Backpack with intergrated Hot swap buttons plus x10 crafting slots
