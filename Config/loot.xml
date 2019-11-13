@@ -1,5 +1,6 @@
 <configs>
 	
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,12</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
@@ -155,16 +156,16 @@
 </lootcontainer>
 
 <!-- Animal Rabbit -->
-<lootcontainer id="507" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<!--  <lootcontainer id="507" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 <item name="foodRawMeat" count="2,4" prob="0.03"/>
 <item name="resourceAnimalFat" count="2,4" prob="0.03"/>
-</lootcontainer>
+</lootcontainer> -->
 
 <!-- Animal Chicken -->
-<lootcontainer id="508" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<!--  <lootcontainer id="508" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 <item name="foodEgg" count="2,4" prob="0.03"/>
 <item name="resourceFeather" count="5,10" prob="0.04"/>
-</lootcontainer>
+</lootcontainer> -->
 
 </insertAfter>
 </configs>

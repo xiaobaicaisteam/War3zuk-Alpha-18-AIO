@@ -1,11 +1,22 @@
 <configs>
 	
 	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">20</set>
+	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage_received']/@value">10</set>
+	
 	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">25</set>
-	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">35</set>
-	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">40</set>
-	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">55</set>
-	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">65</set>
+	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage_received']/@value">10</set>
+	
+	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">30</set>
+	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage_received']/@value">10</set>
+	
+	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">35</set>
+	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage_received']/@value">10</set>
+	
+	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">40</set>
+	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage_received']/@value">10</set>
+	
+	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">45</set>
+	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage_received']/@value">10</set>
 	
 <append xpath="/blocks">
 
@@ -406,8 +417,8 @@
 	<property name="Class" value="TrunkTip"/>
 	<property name="BlockTag" value="Spike"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Damage" value="7"/>
-	<property name="Damage_received" value="75"/>
+	<property name="Damage" value="50"/>
+	<property name="Damage_received" value="10"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="MSteelPolish"/>
 	<property name="Shape" value="New"/>
@@ -434,8 +445,8 @@
 	<property name="Class" value="TrunkTip"/>
 	<property name="BlockTag" value="Spike"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Damage" value="7"/>
-	<property name="Damage_received" value="75"/>
+	<property name="Damage" value="55"/>
+	<property name="Damage_received" value="10"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="New"/>

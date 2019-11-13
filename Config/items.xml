@@ -2,9 +2,22 @@
 	
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
-	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">20000</set>
+	
+	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set>
 	
 	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.2</set>
+	
+	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolCookingPot']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
 	
 	<append xpath="/items">
 		<item name="Golden Coin">
@@ -14,7 +27,7 @@
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="Morganic"/>
-			<property name="Stacknumber" value="20000"/>
+			<property name="Stacknumber" value="24999"/>
 			<property name="EconomicValue" value="1000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="false"/>

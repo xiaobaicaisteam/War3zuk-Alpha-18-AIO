@@ -1,34 +1,6 @@
 <configs>
 	
-			<remove xpath="/progression/attributes/attribute[@name='attPerception']/effect_group/passive_effect" />
-			<append xpath="/progression/attributes/attribute[@name='attPerception']/effect_group" >
-			<passive_effect name="DamageModifier" operation="perc_add" level="1,10" value="5.0,8.0" tags="head"/>
-			<passive_effect name="DismemberChance" operation="base_add" level="2,10" value=".05,.45"/>
-			</append>
-			
-			<remove xpath="/progression/attributes/attribute[@name='attStrength']/effect_group/passive_effect" />
-			<append xpath="/progression/attributes/attribute[@name='attStrength']/effect_group" >
-			<passive_effect name="DamageModifier" operation="perc_add" level="1,10" value="5.0,8.0" tags="head"/>
-			<passive_effect name="DismemberChance" operation="base_add" level="2,10" value=".05,.45"/>
-			</append>
-			
-			<remove xpath="/progression/attributes/attribute[@name='attFortitude']/effect_group/passive_effect" />
-			<append xpath="/progression/attributes/attribute[@name='attFortitude']/effect_group" >
-			<passive_effect name="DamageModifier" operation="perc_add" level="1,10" value="5.0,8.0" tags="head"/>
-			<passive_effect name="DismemberChance" operation="base_add" level="2,10" value=".05,.45"/>
-			</append>
-			
-			<remove xpath="/progression/attributes/attribute[@name='attAgility']/effect_group/passive_effect" />
-			<append xpath="/progression/attributes/attribute[@name='attAgility']/effect_group" >
-			<passive_effect name="DamageModifier" operation="perc_add" level="1,10" value="5.0,8.0" tags="head"/>
-			<passive_effect name="DismemberChance" operation="base_add" level="2,10" value=".05,.45"/>
-			</append>
-			
-			<remove xpath="/progression/attributes/attribute[@name='attIntellect']/effect_group/passive_effect" />
-			<append xpath="/progression/attributes/attribute[@name='attIntellect']/effect_group" >
-			<passive_effect name="DamageModifier" operation="perc_add" level="1,10" value="5.0,8.0" tags="head"/>
-			<passive_effect name="DismemberChance" operation="base_add" level="2,10" value=".05,.45"/>
-			</append>
+	<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value]/@value">10,30,40,50,105</set>
 	
 	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='1,5']/@tags">,Donnas Fubar Stew</append>
 	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='1,5']/@tags">,HD First Aid Kit</append>
@@ -37,7 +9,7 @@
 	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='1,5']/@tags">,HD Flame Thrower,Fuel Canister</append>
 	
 		<set xpath="/progression/level/@skill_points_per_level">5</set>
-		<set xpath="/progression/level/@exp_to_level">8000</set>
+		<!--  <set xpath="/progression/level/@exp_to_level">8000</set> -->
 		
 <append xpath="/progression/perks">
 	
@@ -116,5 +88,5 @@
 				</effect_group>
 		</perk>
 		
-	</append>	
+	</append>
 </configs>

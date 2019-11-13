@@ -1,4 +1,7 @@
 <configs>
+	
+<set xpath="/xui/ruleset[@name='default']/@scale">1.1</set>
+<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">1</set>
 
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='crafting']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
@@ -13,11 +16,11 @@
 <window name="windowCraftingList"/>
 <window name="craftingInfoPanel"/>
 <window name="WARwindowCraftingQueue"/>
-<window name="windowTools_HD Forge" />
-<window name="windowFuel" />
-<window name="WARwindowForgeInput" />
-<window name="windowOutput" />
-<window name="windowNonPagingHeader" />
+<window name="windowTools_HD Forge"/>
+<window name="windowFuel"/>
+<window name="WARwindowForgeInput"/>
+<window name="windowOutput"/>
+<window name="windowNonPagingHeader"/>
 </window_group>
 
 </append>
